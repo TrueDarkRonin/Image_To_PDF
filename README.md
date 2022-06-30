@@ -4,9 +4,9 @@ Converts jpg, png and bmp to PDF.
 GUI built in tkinter.
 
 ### Requirements:
--Img2PDF
--Pillow
--tkinter 
+- Img2PDF
+- Pillow
+- tkinter 
 
 To install dependency use
 ```bash
