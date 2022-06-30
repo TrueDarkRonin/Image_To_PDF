@@ -1,9 +1,18 @@
+#!/usr/bin/env python
+"""
+Image Converter
+By Gabriel Riley
+"""
 # Imports
 import tkinter as tk
 from tkinter import ttk, filedialog
 from PIL import Image
 import img2pdf
 import os
+
+# TODO
+# Add functionality to convert between multiple formats i.e. jpeg>pdf, png>ico
+# Beautify GUI
 
 
 class Converter:
@@ -17,6 +26,7 @@ class Converter:
         self.root = tk.Tk()
         self.root.geometry("300x200")
         self.root.title('Image2PDF')
+        self.root.iconbitmap("Logo.ico")
         self.root.configure(background='black')
 
         # Variables
